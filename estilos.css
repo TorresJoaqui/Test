@@ -1,0 +1,161 @@
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgs/fondo_air.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#row{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bannerText{
+    font-size: 50px;
+    color: #493468;
+}
+
+#row hr{
+    border: 2px solid #493468;
+}
+
+#bannerText2{
+    color: #493468;
+}
+
+.banner2
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.banner3
+{
+    width: 100%;
+    background-image: url(imgs/footer.jfif);
+    background-size: cover;
+    background-position: left;
+
+}
+
+#carousel1
+{
+    background-color: white;
+    color: darkslateblue;
+    width: 30%;
+    margin: 0px auto;
+}
+
+#carousel1 h3
+{
+    color: darkslateblue;
+}
+
+
+
+/*.carousel-item {
+  position: relative;
+  height: 100vh;
+  min-height: 300px;
+}*/
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    position: relative;
+}
+
+
+#rowCon
+{
+    width: 100%;
+}
+
+.contain-map{
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/budapest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 100%;
+    background-color: #2B1C42;
+    border-color: transparent;
+}
+
+input{
+    margin-bottom: 10px;
+    background-color: #2B1C42;
+    border-color: transparent;
+}
+
+
+#footer{
+    margin-top: 40px;
+}
+
+#footer a,p, h3, i{
+    color: white;
+}
+
+#footer i{
+    cursor: pointer;
+}
+
+#footer .icons{
+    font-size: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#boton
+{
+    background-color: white;
+    border-color: transparent;
+    color: #493468;
+}
+
+
+.ocultar
+{
+    background-color: white;
+    display: none;
+    width: 40%;
+}
+
+
+.ocultar  a
+{
+    color: #493468;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.ocultar  a:hover
+{
+    background-color: lightgrey;
+    text-decoration: none;
+}
